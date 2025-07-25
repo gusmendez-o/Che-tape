@@ -4,11 +4,11 @@
   "private": true,
   "homepage": "https://TU_USUARIO.github.io/che-tape",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "vite-plugin-gh-pages"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
